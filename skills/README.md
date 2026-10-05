@@ -23,7 +23,7 @@ mimari gerekçe için `../docs/ARCHITECTURE.md`.
 | [`android-notifications`](android-notifications) | FCM, bildirim izni, kanallar, teslimat |
 | [`android-media-camera`](android-media-camera) | CameraX, Media3, Photo Picker, görüntü yükleme |
 | [`mobile-analytics`](mobile-analytics) | Event tracking, taksonomi, sağlayıcı soyutlaması |
-| [`on-device-ai`](on-device-ai) | ML Kit, Gemini Nano, özel model, hibrit cihaz-bulut |
+| [`on-device-ai`](on-device-ai) | ML Kit, Gemini Nano, özel model, hibrit cihaz-bulut, ADK agent |
 | [`feature-flags`](feature-flags) | Flag türleri, kill switch, A/B testi, kademeli açılış |
 
 ### Kalite (üretileni doğrular)

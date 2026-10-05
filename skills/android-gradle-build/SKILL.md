@@ -1,6 +1,6 @@
 ---
 name: android-gradle-build
-last_reviewed: 2026-09
+last_reviewed: 2026-10
 description: >
   Gradle build sistemi uzmanlığı: version catalog (libs.versions.toml), convention plugin'ler
   (buildSrc / build-logic), multi-module Gradle setup, build variant ve flavor yönetimi,
@@ -38,7 +38,10 @@ ksp = "2.3.12"
 composeBom = "2026.08.00"
 hilt = "2.60.1"
 coroutines = "1.11.0"
-retrofit = "2.12.0"
+# 3.x korur 2.x ile forward binary-uyumluluk (Retrofit'in kendi sürüm notları);
+# geçişte tek fark: OkHttp artık Kotlin'de yazılı, bu yüzden transitive bir
+# Kotlin bağımlılığı geliyor (OkHttp 4.12).
+retrofit = "3.0.0"
 
 [libraries]
 androidx-core-ktx        = { module = "androidx.core:core-ktx", version = "1.15.0" }

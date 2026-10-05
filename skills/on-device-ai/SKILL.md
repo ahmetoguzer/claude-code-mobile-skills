@@ -1,6 +1,6 @@
 ---
 name: on-device-ai
-last_reviewed: 2026-09
+last_reviewed: 2026-10
 description: >
   Cihaz üstü ve hibrit yapay zekâ: ML Kit hazır API'leri, Gemini Nano / ML Kit GenAI ile
   cihazda üretken görevler, bulut LLM'e ne zaman gidileceği, TensorFlow Lite (LiteRT) ve
@@ -12,6 +12,8 @@ description: >
   "metin özetleme", "OCR", "yüz tanıma", "görüntü sınıflandırma", "çeviri",
   "LLM entegrasyonu", "akıllı öneri", "model boyutu", "AI agent", "ajan mimarisi",
   "tool calling", "ADK", "Agent Development Kit".
+  "Ajan" burada AI agent (ADK/LLM orkestrasyonu) anlamındadır — genel uygulama mimarisi
+  sorusu ("mimari nasıl olmalı", katman/modül tasarımı) android-architect'e devredilir.
 ---
 
 # On-Device AI Skill
