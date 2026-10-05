@@ -5,6 +5,7 @@ Yeni satır her zaman **en üste** eklenir.
 
 | Tarih | Sonuç | PR |
 |---|---|---|
+| 2026-10-05 | Tur #12 — 1 güncelleme (Retrofit 3.0.0, forward binary-uyumlu doğrulandı); routing eval 58/58; **ilk derin tutarlılık denetimi** — 2 bulgu düzeltildi (stale `skills/README.md` satırı, eksik hand-off sınırı); `android/skills` ilk kez kalıcı izlemede, sağlıklı | [#16](https://github.com/ahmetoguzer/claude-code-mobile-skills/pull/16) |
 | 2026-09-28 | Tur #11 (ikinci tetiklenme, elle ateşlendi) — §2a'nın ilk koşumu: 3 sürüm güncellemesi (Hilt 2.60.1, coroutines 1.11.0, Retrofit 2.12.0); Play Store geliştirici doğrulama kesin tarihli (30 Eylül 2026); `android/skills` incelemesi tamamlandı, standing item kapandı | [#9](https://github.com/ahmetoguzer/Skills-Architecture/pull/9) |
 | 2026-09-28 | Tur #10 — 1 yeni içerik (`on-device-ai`'ye ADK for Kotlin/agentic AI bölümü); `android/skills` hâlâ açık | [#7](https://github.com/ahmetoguzer/Skills-Architecture/pull/7) |
 | 2026-09-21 | Tur #9 — 1 güncelleme (Kotlin 2.4.20) + 1 kendi hata düzeltmesi (stale KSP-pairing notu); 3. parti bir yanlış iddia WebFetch ile doğrulanıp reddedildi; `android/skills` hâlâ açık | [#6](https://github.com/ahmetoguzer/Skills-Architecture/pull/6) |
