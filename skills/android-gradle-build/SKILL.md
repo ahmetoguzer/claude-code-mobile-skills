@@ -35,7 +35,7 @@ kotlin = "2.4.20"
 # çakışması) düzeltiyor; 2.3.12 ayrıca AGP 9'un gömülü Kotlin'iyle R-class
 # çözümleme hatasını da kapatıyor.
 ksp = "2.3.12"
-composeBom = "2026.08.00"
+composeBom = "2026.09.00"
 hilt = "2.60.1"
 coroutines = "1.11.0"
 # 3.x korur 2.x ile forward binary-uyumluluk (Retrofit'in kendi sürüm notları);
