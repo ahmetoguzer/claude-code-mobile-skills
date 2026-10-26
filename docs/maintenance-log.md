@@ -5,6 +5,7 @@ Yeni satır her zaman **en üste** eklenir.
 
 | Tarih | Sonuç | PR |
 |---|---|---|
+| 2026-10-26 | Tur #15 — 1 yeni içerik (`android-security`'ye Play Console contacts/location izin politikası); 2 tur süren tarih belirsizliği çözüldü (27-28 Ekim uyarı, 27 Ocak 2027 zorunlu); `android/skills` sağlıklı | [#18](https://github.com/ahmetoguzer/claude-code-mobile-skills/pull/18) |
 | 2026-10-19 | Tur #14 — Değişiklik yok. §2a tam geçiş: tüm sürümler (agp 9.4.0, kotlin 2.4.20, ksp 2.3.12, composeBom 2026.09.00, hilt 2.60.1, coroutines 1.11.0, retrofit 3.0.0) doğrulanıp güncel bulundu; iddia edilen "AGP 9.4.1" resmi sayfada doğrulanamadı, reddedildi. Play Console izin tarihi çelişkisi 2. kez teyit edilemedi (`support.google.com` bu turda erişilemedi); `android/skills` aktif ama örtüşen bir değişiklik yok | — |
 | 2026-10-12 | Tur #13 — 1 güncelleme (Compose BOM 2026.09.00); §2a tam geçiş — diğer tüm sürümler güncel doğrulandı; Play Console izin tarihi çelişkisi teyit edilemedi, dokunulmadı; `android/skills` sağlıklı, sessiz hafta | [#17](https://github.com/ahmetoguzer/claude-code-mobile-skills/pull/17) |
 | 2026-10-05 | Tur #12 — 1 güncelleme (Retrofit 3.0.0, forward binary-uyumlu doğrulandı); routing eval 58/58; **ilk derin tutarlılık denetimi** — 2 bulgu düzeltildi (stale `skills/README.md` satırı, eksik hand-off sınırı); `android/skills` ilk kez kalıcı izlemede, sağlıklı | [#16](https://github.com/ahmetoguzer/claude-code-mobile-skills/pull/16) |
