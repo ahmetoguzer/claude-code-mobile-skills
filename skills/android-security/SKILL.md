@@ -1,6 +1,6 @@
 ---
 name: android-security
-last_reviewed: 2026-08
+last_reviewed: 2026-10
 description: >
   Android güvenlik ve gizlilik uzmanlığı: güvenli veri saklama (EncryptedSharedPreferences,
   Keystore), network güvenliği (TLS, certificate pinning), token saklama ve transport güvenliği,
@@ -222,6 +222,12 @@ Root tespitinde uygulamayı kapatma; riski backend'e bildir ve hassas işlemi (p
 - Deep link'lerde gelen parametreyi **doğrulanmamış girdi** kabul et
 - `FLAG_SECURE`: hassas ekranlarda screenshot/recent apps önizlemesini engelle
 - Play Console **Data Safety** formu gerçek veri akışıyla uyumlu olmalı — uyumsuzluk yayın reddi sebebidir
+- **Contacts/Location kısıtlı izin politikası** (API 37+ hedefleyen uygulamalar): sürekli kişi listesi
+  erişimi için Play Developer Declaration dosyalanmalı; tek seferlik paylaşım/davet için sistem
+  picker'ı kullanılıp `READ_CONTACTS` hiç istenmemeli. Tek seferlik konum ihtiyacında
+  `ACCESS_FINE_LOCATION` yerine Android location button tercih edilmeli. Play Console 27 Ekim
+  2026'dan itibaren bunları submission öncesi **uyarı** olarak işaretliyor; tam zorunlu uyum
+  tarihi **27 Ocak 2027**.
 
 ---
 
