@@ -5,6 +5,7 @@ Yeni satır her zaman **en üste** eklenir.
 
 | Tarih | Sonuç | PR |
 |---|---|---|
+| 2026-11-09 | Tur #17 — 2 güncelleme (AGP 9.5.0 — Gradle 9.6.0 minimum uyarısıyla, Kotlin 2.4.21 — KSP uyumluluğu doğrulandı); Navigation 3 1.2.1'de compileSdk 37→36 geri alması gözlemlendi, izlemede; `android/skills` sağlıklı | [#19](https://github.com/ahmetoguzer/claude-code-mobile-skills/pull/19) |
 | 2026-11-02 | Tur #16 — Değişiklik yok; routing eval 58/58 (önceki turlarla birebir aynı). AGP/Compose/Navigation/CameraX/Kotlin/Hilt/coroutines/Retrofit/KSP'de yeni stable sürüm yok. Play Console 29 Ekim duyurusu (trader status, Japan ödemeleri) iş/yasal kapsam dışı; "accessibility-tool flag" netleştirmesi belirsiz, aksiyon alınmadı; `android/skills` aktif ama örtüşen değişiklik yok | — |
 | 2026-10-26 | Tur #15 — 1 yeni içerik (`android-security`'ye Play Console contacts/location izin politikası); 2 tur süren tarih belirsizliği çözüldü (27-28 Ekim uyarı, 27 Ocak 2027 zorunlu); `android/skills` sağlıklı | [#18](https://github.com/ahmetoguzer/claude-code-mobile-skills/pull/18) |
 | 2026-10-19 | Tur #14 — Değişiklik yok. §2a tam geçiş: tüm sürümler (agp 9.4.0, kotlin 2.4.20, ksp 2.3.12, composeBom 2026.09.00, hilt 2.60.1, coroutines 1.11.0, retrofit 3.0.0) doğrulanıp güncel bulundu; iddia edilen "AGP 9.4.1" resmi sayfada doğrulanamadı, reddedildi. Play Console izin tarihi çelişkisi 2. kez teyit edilemedi (`support.google.com` bu turda erişilemedi); `android/skills` aktif ama örtüşen bir değişiklik yok | — |
