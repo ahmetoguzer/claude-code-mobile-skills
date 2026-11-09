@@ -1,6 +1,6 @@
 ---
 name: android-gradle-build
-last_reviewed: 2026-10
+last_reviewed: 2026-11
 description: >
   Gradle build sistemi uzmanlığı: version catalog (libs.versions.toml), convention plugin'ler
   (buildSrc / build-logic), multi-module Gradle setup, build variant ve flavor yönetimi,
@@ -28,8 +28,10 @@ Ortaklaştır.
 
 ```toml
 [versions]
-agp = "9.4.0"
-kotlin = "2.4.20"
+# AGP 9.5.0+ artık Gradle 9.6.0 minimum gerektiriyor (kök gradle-wrapper.properties'i
+# de eşlik ettirmeden bu sürüme geçme).
+agp = "9.5.0"
+kotlin = "2.4.21"
 # KSP sürümleme şeması değişti: artık Kotlin ön ekli değil ("2.1.0-1.0.29" gibi),
 # bağımsız semver ("2.3.x"). 2.3.10+ google/ksp#2964'ü (Kotlin 2.4.0 modül adı
 # çakışması) düzeltiyor; 2.3.12 ayrıca AGP 9'un gömülü Kotlin'iyle R-class
