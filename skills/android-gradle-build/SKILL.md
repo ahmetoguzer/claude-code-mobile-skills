@@ -30,13 +30,16 @@ Ortaklaştır.
 [versions]
 # AGP 9.5.0+ artık Gradle 9.6.0 minimum gerektiriyor (kök gradle-wrapper.properties'i
 # de eşlik ettirmeden bu sürüme geçme).
-agp = "9.5.0"
+agp = "9.5.1"
 kotlin = "2.4.21"
 # KSP sürümleme şeması değişti: artık Kotlin ön ekli değil ("2.1.0-1.0.29" gibi),
 # bağımsız semver ("2.3.x"). 2.3.10+ google/ksp#2964'ü (Kotlin 2.4.0 modül adı
 # çakışması) düzeltiyor; 2.3.12 ayrıca AGP 9'un gömülü Kotlin'iyle R-class
 # çözümleme hatasını da kapatıyor.
-ksp = "2.3.12"
+# UYARI: 2.3.13'ü ASLA kullanma — google/ksp#3286, paralel KSP task'larında
+# Hilt aggregating module binding'lerini (ve diğer library sembollerini)
+# sessizce düşürüyor; build hatasız geçer ama DI kırık çıkar. 2.3.14 düzeltiyor.
+ksp = "2.3.14"
 composeBom = "2026.09.00"
 hilt = "2.60.1"
 coroutines = "1.11.0"
