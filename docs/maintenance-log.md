@@ -5,6 +5,7 @@ Yeni satır her zaman **en üste** eklenir.
 
 | Tarih | Sonuç | PR |
 |---|---|---|
+| 2026-11-23 | Tur #19 — 1 güncelleme (Compose BOM 2026.11.01, Compose 1.13.0 stable); `android/skills`'teki 15 Kasım toplu senkronizasyonu (#279) incelendi, catalog'umuzun önünde olduğu doğrulandı | [#21](https://github.com/ahmetoguzer/claude-code-mobile-skills/pull/21) |
 | 2026-11-16 | Tur #18 — 2 güncelleme (AGP 9.5.1; KSP 2.3.12 → 2.3.14, google/ksp#3286'nın Hilt binding'lerini sessizce düşüren regresyonuna hiç uğramadan — 2.3.13'e kalıcı "ASLA kullanma" uyarısı eklendi); `android/skills` sağlıklı | [#20](https://github.com/ahmetoguzer/claude-code-mobile-skills/pull/20) |
 | 2026-11-09 | Tur #17 — 2 güncelleme (AGP 9.5.0 — Gradle 9.6.0 minimum uyarısıyla, Kotlin 2.4.21 — KSP uyumluluğu doğrulandı); Navigation 3 1.2.1'de compileSdk 37→36 geri alması gözlemlendi, izlemede; `android/skills` sağlıklı | [#19](https://github.com/ahmetoguzer/claude-code-mobile-skills/pull/19) |
 | 2026-11-02 | Tur #16 — Değişiklik yok; routing eval 58/58 (önceki turlarla birebir aynı). AGP/Compose/Navigation/CameraX/Kotlin/Hilt/coroutines/Retrofit/KSP'de yeni stable sürüm yok. Play Console 29 Ekim duyurusu (trader status, Japan ödemeleri) iş/yasal kapsam dışı; "accessibility-tool flag" netleştirmesi belirsiz, aksiyon alınmadı; `android/skills` aktif ama örtüşen değişiklik yok | — |
