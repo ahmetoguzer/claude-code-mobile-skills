@@ -40,7 +40,7 @@ kotlin = "2.4.21"
 # Hilt aggregating module binding'lerini (ve diğer library sembollerini)
 # sessizce düşürüyor; build hatasız geçer ama DI kırık çıkar. 2.3.14 düzeltiyor.
 ksp = "2.3.14"
-composeBom = "2026.09.00"
+composeBom = "2026.11.01"
 hilt = "2.60.1"
 coroutines = "1.11.0"
 # 3.x korur 2.x ile forward binary-uyumluluk (Retrofit'in kendi sürüm notları);
